@@ -59,7 +59,7 @@ header .navbar a:hover{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background-image: url(../gambar/bg2.jpg);
+    background-image: url(bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
