@@ -61,6 +61,7 @@ header .navbar a:hover {
 
 .home {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -78,7 +79,22 @@ header .navbar a:hover {
 .home .content h3 {
     font-size: 6rem;
     color: #fff;
+    margin-bottom: 2px;
     text-align: center;
+}
+
+.audio{
+    margin-top: 20px;
+    padding: 5px;
+    max-width: 30%;
+    width: 30%;
+    border-radius: 100%;
+}
+
+.audio audio{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .about {
