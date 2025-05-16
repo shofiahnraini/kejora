@@ -85,9 +85,10 @@ header .navbar a:hover {
 
 .audio{
     margin-top: 20px;
-    padding: 5px;
+    padding: 1px;
     max-width: 30%;
     width: 30%;
+    border: 0px solid #e7dedee0;
     border-radius: 100%;
 }
 
@@ -97,7 +98,7 @@ header .navbar a:hover {
     margin: 0 auto;
 }
 
-.about {
+.design progress {
     background-color: #333;
 }
 
@@ -114,7 +115,7 @@ header .navbar a:hover {
     color: var(--purple);
 }
 
-.about .row {
+.design progress .row {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -123,12 +124,12 @@ header .navbar a:hover {
     padding-bottom: 3rem;
 }
 
-.about .row .video-container {
+.design progress .row .video-container {
     flex: 1 1 40rem;
     position: relative;
 }
 
-.about .row .video-container video {
+.design progress .row .video-container video {
     width: 100%;
     border: 1.5rem solid #fff;
     border-radius: 0.5rem;
@@ -137,7 +138,7 @@ header .navbar a:hover {
     object-fit: cover;
 }
 
-.about .row .video-container h3 {
+.design progress .row .video-container h3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -149,16 +150,16 @@ header .navbar a:hover {
     mix-blend-mode: screen;
 }
 
-.about .row .content {
+.design progress .row .content {
     flex: 1 1 40rem;
 }
 
-.about .row .content h3 {
+.design progress .row .content h3 {
     font-size: 3rem;
     color: #fff;
 }
 
-.about .row .content p {
+.design progress .row .content p {
     font-size: 1.5rem;
     color: #fff;
     padding: 0.5rem 0;
