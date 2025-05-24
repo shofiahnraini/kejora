@@ -83,23 +83,22 @@ header .navbar a:hover {
     text-align: center;
 }
 
-.audio{
+.audio {
     margin-top: 20px;
     padding: 1px;
     max-width: 30%;
     width: 30%;
-    border: 0px solid #e7dedee0;
     border-radius: 100%;
 }
 
-.audio audio{
+.audio audio {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
 }
 
-.design progress {
-    background-color: #333;
+.design-progress {
+    background-color: #3f3e3e;
 }
 
 .heading {
@@ -115,7 +114,7 @@ header .navbar a:hover {
     color: var(--purple);
 }
 
-.design progress .row {
+.design-progress .row {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -124,44 +123,44 @@ header .navbar a:hover {
     padding-bottom: 3rem;
 }
 
-.design progress .row .video-container {
+.design-progress .row .video-container {
     flex: 1 1 40rem;
     position: relative;
 }
 
-.design progress .row .video-container video {
+.design-progress .row .video-container video {
     width: 100%;
-    border: 1.5rem solid #fff;
+    border: 1.5rem solid #ffffff;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     height: 100%;
     object-fit: cover;
 }
 
-.design progress .row .video-container h3 {
+.design-progress .row .video-container h3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-size: 3rem;
-    background: #fff;
+    background:#ffffffe1; 
     width: 100%;
     padding: 1rem 2rem;
     text-align: center;
     mix-blend-mode: screen;
 }
 
-.design progress .row .content {
+.design-progress .row .content {
     flex: 1 1 40rem;
 }
 
-.design progress .row .content h3 {
+.design-progress .row .content h3 {
     font-size: 3rem;
-    color: #fff;
+    color: #ffffffe1;
 }
 
-.design progress .row .content p {
+.design-progress .row .content p {
     font-size: 1.5rem;
-    color: #fff;
+    color: #ffffffe1;
     padding: 0.5rem 0;
     padding-top: 1rem;
     line-height: 1.5;
